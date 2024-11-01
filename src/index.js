@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const connect = require("./Db/connectDb.js");
 const goalRoutes = require("./routes/goal.routes.js");
+const userRoutes = require("./routes/user.routes.js");
 
 dotenv.config();
 const app = express();
@@ -18,3 +19,4 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/goals", goalRoutes);
+app.use("/api/users", userRoutes);
