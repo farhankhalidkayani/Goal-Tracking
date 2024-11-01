@@ -1,0 +1,28 @@
+{
+  "name": "goal-tracking",
+  "version": "1.0.0",
+  "description": "Goal Tracking REST Api made with node,express and mongoDB. to practice REST APIs and authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhankhalidkayani/Goal-Tracking.git"
+  },
+  "author": "Farhan Khalid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farhankhalidkayani/Goal-Tracking/issues"
+  },
+  "homepage": "https://github.com/farhankhalidkayani/Goal-Tracking#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}
